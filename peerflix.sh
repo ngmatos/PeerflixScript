@@ -16,7 +16,7 @@ then
         echo "Try to export to /tmp/"
     else
         echo "SUCCESS: Movie will now start soon"
-        echo "peerflix $1 --vlc -f $PEERPATH"
+        peerflix $1 --vlc -f $PEERPATH
     fi
 else
     echo "ERROR: Expecting 1 argument!"
