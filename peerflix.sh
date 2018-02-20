@@ -6,7 +6,7 @@ MAGNET=$1
 if [ "$#" -eq 1 ] 
 then
     PEERPATH=$PEERFLIX_PATH
-    if [ -v $PEERPATH ]
+    if [ -z $PEERPATH ]
     then
         echo "ERROR: Peerflix path is not set as environment variable"
         echo "USAGE: export PEERFLIX_PATH=[path]"
