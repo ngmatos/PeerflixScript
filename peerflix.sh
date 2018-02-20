@@ -1,5 +1,4 @@
 #!/bin/sh
-#!/bin/bash
 echo "Using Peerflix script"
 
 MAGNET=$1
